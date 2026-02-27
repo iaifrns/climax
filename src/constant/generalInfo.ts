@@ -1,4 +1,4 @@
-const phone = '+447877020977'
+const phone = '687 952 732 / 677 448 317'
 const email = 'contact@climaxtech-cm.com'
 
 export {phone, email}

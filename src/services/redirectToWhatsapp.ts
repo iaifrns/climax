@@ -1,10 +1,9 @@
-import { phone } from "@/constant/generalInfo";
 
 export const redirectToWhatsapp = () => {
     const message="Hello, I would like more information about your services."
 
     const text = message ? encodeURIComponent(message) : "";
-    const url = `https://wa.me/${phone}${text ? `?text=${text}` : ""}`;
+    const url = `https://wa.me/${+237687952732}${text ? `?text=${text}` : ""}`;
 
     window.open(url, "_blank"); // open in new tab / WhatsApp app
   
