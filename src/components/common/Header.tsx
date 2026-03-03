@@ -49,8 +49,8 @@ function Header() {
     <div className='w-screen h-20 flex flex-col items-center justify-center relative'>
       <div className='w-full h-20 hidden md:flex flex-col items-center'>
         <div className='w-4/5 flex justify-center'>
-          <div className='w-1/3'>
-            <img src={logo} sizes='40' alt="" />
+          <div className='w-1/3 h-full'>
+            <img src={logo} className='w-40' alt="" />
           </div>
           <div className='w-2/3 flex items-center gap-5 lg:gap-10 text-xl lg:text-2xl font-bold justify-end'>
             <p>{phone} </p>
@@ -83,7 +83,7 @@ function Header() {
       {/* nav2 */}
       <div className={`flex ${isNav ? 'fixed' : 'md:hidden'} w-full h-20 justify-center items-center z-400 top-0 left-0 bg-[rgba(251,251,251,0.68)] backdrop-blur-2xl transition-all duration-500`}>
         <div className='w-1/3 h-full items-center justify-center'>
-          <img src={logo} sizes='40' className=' h-15' alt="" />
+          <img src={logo} sizes='40' className='h-20' alt="" />
         </div>
         <div className='w-2/3 flex items-center'>
           <div className='hidden w-3/4 lg:px-20 md:flex justify-around items-center'>
